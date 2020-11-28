@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="" width="80px">
+        <h1>Olive Shop</h1>
+    </header>
+    <div id="main">
+        <div class="card">
+            <p>Director's Reserve</p>
+            <img src="img/directors.jpg" alt="" width="80px">
+            <p>Price: 9$</p>
+            <p>Quantity: 10</p>
+        </div>
+
+        <div class="card">
+            <p>Lama oil</p>
+            <img src="img/directors.jpg" alt="" width="80px">
+            <p>Price: 12$</p>
+            <p>Quantity: 20</p>
+        </div>
+
+        <div class="card">
+            <p>Mission</p>
+            <img src="img/directors.jpg" alt="" width="80px">
+            <p>Price: 9$</p>
+            <p>Quantity: 8</p>
+        </div>
+    </div>
+
+    <div id="ship">
+        <p>Add shipment</p>
+        <input type="text" id="oilName" placeholder="name">
+        <input type="text" id="qty" placeholder="quantity">
+        <input type="button" value="Add" onclick="addShip()">
+    </div>
+
+    <footer>
+        <p>Copyright Olive inc 2020</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
